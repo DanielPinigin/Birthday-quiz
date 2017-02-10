@@ -31,4 +31,6 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
-birthday = float(input("Hello, what is your name?"))
+name = input("Hello, what is your name? ")
+month = input("Hi {0}, what was the name of the month you were born in? " .format(name))
+year = input("And what year were you born in, {0}? " .format(name))

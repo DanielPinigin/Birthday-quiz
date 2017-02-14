@@ -48,10 +48,14 @@ spring = ["march", "april", "may"]
 summer = ["june", "july", "august"]
 fall = ["september", "october", "november"]
 
-if month == ["december", "january", "february"]
+if month in ["december", "january", "february"]:
     season = "winter"
-elif month == ["march", "april", "may"]
+elif month in ["march", "april", "may"]:
     season = "spring"
+elif month in ["june", "july", "august"]:
+    season = "summer"
+else: 
+    season = "fall"
 
 
 

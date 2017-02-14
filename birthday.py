@@ -31,8 +31,32 @@ Example Session
   And the day? 11
   Eric, you are a fall baby of the stone age.
 """
+
+from datetime import datetime
+from calendar import month_name
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
 name = input("Hello, what is your name? ")
 month = input("Hi {0}, what was the name of the month you were born in? " .format(name))
 year = input("And what year were you born in, {0}? " .format(name))
 day = input("And the day? ")
+
+month == month.lower()
+winter = ["december", "january", "february"]
+spring = ["march", "april", "may"]
+summer = ["june", "july", "august"]
+fall = ["september", "october", "november"]
+
+if month == ["december", "january", "february"]
+    season = "winter"
+elif month == ["march", "april", "may"]
+    season = "spring"
+
+
+
+
+
+
+
 print("{0}, you are a {1} baby of the {2}. " .format(name, INSERT MAS)

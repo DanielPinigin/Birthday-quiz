@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Daniel
-Credit: <list sources used, if any>
+Credit: Mr. Dennison
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -57,7 +57,14 @@ elif month in ["june", "july", "august"]:
 else: 
     season = "fall"
 
-if year in [
+if year < 1980:
+    timeperiod = "stone age"
+elif year in ["1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989"]:
+    timeperiod = "eighties"
+elif year in ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999"]:
+    timeperiod = "nineties"
+else:
+    timeperiod = "two thousands"
 
 
 

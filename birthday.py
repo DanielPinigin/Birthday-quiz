@@ -57,7 +57,7 @@ elif month in ["june", "july", "august"]:
 else: 
     season = "fall"
 
-if year < 1980:
+if int(year) < 1980:
     timeperiod = "stone age"
 elif year in ["1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989"]:
     timeperiod = "eighties"

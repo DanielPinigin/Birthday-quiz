@@ -42,7 +42,7 @@ month = input("Hi {0}, what was the name of the month you were born in? " .forma
 year = input("And what year were you born in, {0}? " .format(name))
 day = input("And the day? ")
 
-month == month.lower()
+month = month.lower()
 winter = ["december", "january", "february"]
 spring = ["march", "april", "may"]
 summer = ["june", "july", "august"]

@@ -48,7 +48,7 @@ spring = ["march", "april", "may"]
 summer = ["june", "july", "august"]
 fall = ["september", "october", "november"]
 
-if month == month_name[todaymonth] and day == int(todaydate):
+if month == month_name[todaymonth] and int(day) == int(todaydate):
     print("Happy Birthday!")
 
 if month in ["december", "january", "february"]:

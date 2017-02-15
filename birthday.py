@@ -70,7 +70,7 @@ else:
 
 if month == month_name[todaymonth] and int(day) == todaydate:
     print("Happy Birthday!")
-elif month in ["october"] and int(day) == 31:
+elif month in ["october",] and int(day) == 31:
     print("Happy Halloween!")
 else:
     print("{0}, you are a {1} baby of the {2}. " .format(name, season, timeperiod))

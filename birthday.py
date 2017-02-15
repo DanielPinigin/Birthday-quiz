@@ -48,6 +48,9 @@ spring = ["march", "april", "may"]
 summer = ["june", "july", "august"]
 fall = ["september", "october", "november"]
 
+if month == month_name[todaymonth] and day == todaydate:
+    print("Happy Birthday!")
+
 if month in ["december", "january", "february"]:
     season = "winter"
 elif month in ["march", "april", "may"]:
@@ -65,6 +68,7 @@ elif year in ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1
     timeperiod = "nineties"
 else:
     timeperiod = "two thousands"
+
 
 
 

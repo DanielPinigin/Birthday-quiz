@@ -70,4 +70,4 @@ else:
 
 
 
-print("{0}, you are a {1} baby of the {2}. " .format(name, season, timeperiod)
+print("{0}, you are a {1} baby of the {2}. " .format(name, season, timeperiod))

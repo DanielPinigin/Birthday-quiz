@@ -69,7 +69,7 @@ else:
     timeperiod = "two thousands"
 
 if month == month_name[todaymonth].lower() and int(day) == todaydate:
-    print("Happy Birthday!")
+    print("Happy birthday!")
 elif month in ["october",] and int(day) == 31:
     print("Happy Halloween!")
 else:

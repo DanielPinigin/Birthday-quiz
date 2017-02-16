@@ -68,6 +68,8 @@ elif year in ["1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1
 else:
     timeperiod = "two thousands"
 
+print(month,month_name[todaymonth],  int(day), todaydate) 
+
 if month == month_name[todaymonth] and int(day) == todaydate:
     print("Happy Birthday!")
 elif month in ["october",] and int(day) == 31:
